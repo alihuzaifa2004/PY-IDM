@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "PyIDM Pro - Send to Download Manager",
+  "version": "1.0",
+  "description": "Right-click on links to send them to PyIDM Pro.",
+  "permissions": ["contextMenus", "activeTab"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "48": "icon48.png"
+  }
+}
