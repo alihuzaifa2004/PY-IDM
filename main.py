@@ -15,3 +15,4 @@ from pyidm_pro.ui.app import PyIDMApp
 if __name__ == "__main__":
     app = PyIDMApp()
     app.mainloop()
+
